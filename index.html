@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aiden Sung</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    </style>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/jpg" href="./img/favicon-dark.ico" />
+    <script src="./js/index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a href="#home" class="logo">
+        <img src="img/aidensung-logo.png" alt="" />
+      </a>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#techstack" class="nav__link">Tech Stack</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro__container" id="home">
+      <div class="intro">
+        <h1 class="section__title section__title--intro">Hi, I am <strong>Aiden Sung</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">Web/Mobile Dev</p>
+        <img src="img/aiden-profile-01.jpg" alt="Aiden Sung" class="intro__img" />
+      </div>
+      <a href="#about" class="btn arrow--down"><i class="fas fa-chevron-down"></i></a>
+    </section>
+
+    <!-- About -->
+    <section class="about__container" id="about">
+      <div class="about">
+        <h2 class="section__title section__title--about">Aiden is</h2>
+        <p class="section__subtitle section__subtitle--about">A Developer in Toronto, CA</p>
+        <ul class="about__body">
+          <li>Skilled in all phases of the software life-cycle</li>
+          <li>Passionate for learning new technologies</li>
+          <li>Capable of working within a team environment and independently</li>
+          <li>Able to plan schedule, manage time, work under strict time pressure and adapt quickly</li>
+        </ul>
+
+        <img src="img/aiden-profile-02.jpg" alt="Aiden Sung" class="about__img" />
+
+        <div class="about__exp">
+          <div class="exp">
+            <img class="exp__logo" src="img/logo-centennialcollege.png" alt="Centennial College Logo" />
+            <div class="exp__description">
+              <p class="exp__name">Graduated from Centennial College with Honours in Software Engineering (GPA: 4.113)</p>
+              <p class="exp__period">2019 Jan - 2020 Apr</p>
+            </div>
+          </div>
+
+          <div class="exp">
+            <img class="exp__logo" src="img/logo-samsung.png" alt="Samsung Logo" />
+            <div class="exp__description">
+              <p class="exp__name">Worked at Samsung as Electronic Materials Engineer</p>
+              <p class="exp__period">2015 Jan - 2018 Aug</p>
+            </div>
+          </div>
+
+          <div class="exp">
+            <img class="exp__logo" src="img/logo-military.png" alt="Military Service Logo" />
+            <div class="exp__description">
+              <p class="exp__name">Served in the military in South Korea</p>
+              <p class="exp__period">2007 May - 2009 Apr</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#techstack" class="btn arrow--down"><i class="fas fa-chevron-down"></i></a>
+    </section>
+
+    <!-- Teck Stack -->
+    <section class="techstack__container" id="techstack">
+      <div class="techstack">
+        <h2 class="section__title section__title--techstack">Tech Stack</h2>
+        <div class="skills">
+          <div class="skill">
+            <div class="skill__logo frontend"><i class="fab fa-html5"></i></div>
+            <h3>Front-end</h3>
+            <p>HTML, CSS, JavaScript, TypeScript, React, Redux, styled-components, Sass</p>
+          </div>
+
+          <div class="skill">
+            <div class="skill__logo backend"><i class="fas fa-server"></i></div>
+            <h3>Back-end</h3>
+            <p>Node.js, Express.js, Rest APIs, GraphQL, Apollo, MySQL, MongoDB, Firebase, AWS</p>
+          </div>
+
+          <div class="skill">
+            <div class="skill__logo mobile"><i class="fas fa-mobile-alt"></i></div>
+            <h3>Mobile</h3>
+            <p>React Native, Expo</p>
+          </div>
+        </div>
+
+        <a href="#projects" class="btn project-btn">Projects</a>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects__container" id="projects">
+      <h2 class="section__title section__title--projects">Projects</h2>
+      <p class="section__subtitle section__subtitle--projects">Here's what I've worked on</p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <div class="portfolio__item__container">
+          <div class="portfolio__item portfolio__item--item01">
+            <p class="portfolio__description">Awesome app with amazing features</p>
+            <div class="portfolio__links">
+              <a href="https://github.com/aidensung" target="_blank" class="portfolio__link">Live</a>
+              <a href="https://github.com/aidensung" target="_blank" class="portfolio__link">GitHub</a>
+            </div>
+            <a href="portfolio-item.html" class="btn">Detail <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+        <!-- Portfolio item 02 -->
+        <div class="portfolio__item__container">
+          <div class="portfolio__item portfolio__item--item02">
+            <p class="portfolio__description">Awesome app with amazing features</p>
+            <div class="portfolio__links">
+              <a href="https://github.com/aidensung" target="_blank" class="portfolio__link">Live</a>
+              <a href="https://github.com/aidensung" target="_blank" class="portfolio__link">GitHub</a>
+            </div>
+            <a href="portfolio-item.html" class="btn">Detail <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+        <!-- Portfolio item 03 -->
+        <div class="portfolio__item__container">
+          <div class="portfolio__item portfolio__item--item03">
+            <p class="portfolio__description">Awesome app with amazing features</p>
+            <div class="portfolio__links">
+              <a href="https://github.com/aidensung" target="_blank" class="portfolio__link">Live</a>
+              <a href="https://github.com/aidensung" target="_blank" class="portfolio__link">GitHub</a>
+            </div>
+            <a href="portfolio-item.html" class="btn">Detail <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+        <!-- Portfolio item 04 -->
+        <div class="portfolio__item__container">
+          <div class="portfolio__item portfolio__item--item04">
+            <p class="portfolio__description">Awesome app with amazing features</p>
+            <div class="portfolio__links">
+              <a href="https://github.com/aidensung" target="_blank" class="portfolio__link">Live</a>
+              <a href="https://github.com/aidensung" target="_blank" class="portfolio__link">GitHub</a>
+            </div>
+            <a href="portfolio-item.html" class="btn">Detail <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+        <!-- Portfolio item 05 -->
+        <div class="portfolio__item__container">
+          <div class="portfolio__item portfolio__item--item05">
+            <p class="portfolio__description">Awesome app with amazing features</p>
+            <div class="portfolio__links">
+              <a href="https://github.com/aidensung" target="_blank" class="portfolio__link">Live</a>
+              <a href="https://github.com/aidensung" target="_blank" class="portfolio__link">GitHub</a>
+            </div>
+            <a href="portfolio-item.html" class="btn">Detail <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+        <!-- Portfolio item 06 -->
+        <div class="portfolio__item__container">
+          <div class="portfolio__item portfolio__item--item06">
+            <p class="portfolio__description">Awesome app with amazing features</p>
+            <div class="portfolio__links">
+              <a href="https://github.com/aidensung" target="_blank" class="portfolio__link">Live</a>
+              <a href="https://github.com/aidensung" target="_blank" class="portfolio__link">GitHub</a>
+            </div>
+            <a href="portfolio-item.html" class="btn">Detail <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#contact" class="btn arrow--down"><i class="fas fa-chevron-down"></i></a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <h2 class="section__title section__title--contact">Contact</h2>
+      <a href="mailto:aidensung.dev@gmail.com" class="footer__link">aidensung.dev@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="https://www.linkedin.com/in/aidensung" target="_blank" class="social-list__link"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://github.com/aidensung" target="_blank" class="social-list__link"><i class="fab fa-github-square"></i></a>
+        </li>
+      </ul>
+    </footer>
+
+    <a href="#" class="btn arrow--up">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+  </body>
+</html>
