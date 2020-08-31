@@ -215,8 +215,7 @@ h3 {
 
 .section__subtitle--intro,
 .section__subtitle--about,
-.section__subtitle--projects,
-.section__subtitle--item {
+.section__subtitle--projects {
   color: var(--clr-deeporange);
   font-family: var(--ff-secondary);
   font-weight: var(--fw-bold);
@@ -225,12 +224,12 @@ h3 {
 
 @media (min-width: 37.5rem) {
   .section__subtitle--intro,
-  .section__subtitle--about,
-  .section__subtitle--item {
+  .section__subtitle--about {
     color: var(--clr-dark);
     text-shadow: 0.03em 0.03em 0.05em rgba(255, 255, 255, 0.75);
     background: var(--clr-deeporange);
     padding: 0.25em 0.75em;
+    padding-left: 50%;
   }
 
   .section__subtitle--projects {
@@ -645,15 +644,15 @@ header.scrolled .nav-toggle {
 }
 
 .portfolio__item--item01 {
-  background-image: url(../img/portfolio-01.jpg);
+  background-image: url(../img/e-commerce-home-capture.jpg);
 }
 
 .portfolio__item--item02 {
-  background-image: url(../img/portfolio-02.jpg);
+  background-image: url(../img/chat-capture.png);
 }
 
 .portfolio__item--item03 {
-  background-image: url(../img/portfolio-03.jpg);
+  background-image: url(../img/facerecognition-main-capture.png);
 }
 
 .portfolio__item--item04 {
@@ -816,7 +815,6 @@ header.scrolled .nav-toggle {
   position: relative;
   padding: 0 1rem 2.5rem;
   max-width: 60rem;
-
   margin: 0 auto;
 }
 
@@ -832,6 +830,11 @@ header.scrolled .nav-toggle {
 
 .portfolio-item-individual p:last-child {
   margin-bottom: 0;
+}
+
+.portfolio-item-individual img {
+  margin: 0 auto;
+  max-height: 350px;
 }
 
 @media (min-width: 37.5rem) {
