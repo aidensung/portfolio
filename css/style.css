@@ -816,6 +816,7 @@ header.scrolled .nav-toggle {
   position: relative;
   padding: 0 1rem 2.5rem;
   max-width: 60rem;
+
   margin: 0 auto;
 }
 
@@ -836,5 +837,6 @@ header.scrolled .nav-toggle {
 @media (min-width: 37.5rem) {
   .portfolio-item-individual {
     padding: 5rem 1rem 8rem;
+    min-height: 100vh;
   }
 }
