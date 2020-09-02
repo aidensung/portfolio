@@ -229,7 +229,7 @@ h3 {
     text-shadow: 0.03em 0.03em 0.05em rgba(255, 255, 255, 0.75);
     background: var(--clr-deeporange);
     padding: 0.25em 0.75em;
-    padding-left: 50%;
+    padding-left: 18rem;
   }
 
   .section__subtitle--projects {
@@ -656,15 +656,15 @@ header.scrolled .nav-toggle {
 }
 
 .portfolio__item--item04 {
-  background-image: url(../img/portfolio-04.jpg);
+  background-image: url(../img/customer-management-capture.jpg);
 }
 
 .portfolio__item--item05 {
-  background-image: url(../img/portfolio-05.jpg);
+  background-image: url(../img/movie-capture.jpg);
 }
 
 .portfolio__item--item06 {
-  background-image: url(../img/portfolio-06.jpg);
+  background-image: url(../img/weather-clear-capture.png);
 }
 
 .portfolio__item .portfolio__description {
@@ -673,9 +673,9 @@ header.scrolled .nav-toggle {
 
 .portfolio__links {
   display: flex;
-  min-width: 11rem;
+  min-width: 75%;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .portfolio__links a {
