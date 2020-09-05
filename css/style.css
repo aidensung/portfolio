@@ -375,7 +375,7 @@ header.scrolled .nav-toggle {
   padding-top: 4rem;
   background-color: var(--clr-dark);
   background-image: url(../img/aiden-profile-03-1067x800.jpg);
-  background-blend-mode: multiply;
+  background-blend-mode: hue;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -402,6 +402,7 @@ header.scrolled .nav-toggle {
     position: relative;
     display: flex;
     align-items: center;
+    background-blend-mode: multiply;
   }
 
   .intro {
@@ -841,13 +842,20 @@ header.scrolled .nav-toggle {
 }
 
 .portfolio-item-individual img {
-  margin: 1rem auto;
-  max-height: 350px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: auto;
+  max-height: 250px;
 }
 
 @media (min-width: 37.5rem) {
   .portfolio-item-individual {
     padding: 5rem 1rem 8rem;
     min-height: 100vh;
+  }
+
+  .portfolio-item-individual img {
+    margin: 1rem auto;
+    max-height: 350px;
   }
 }
