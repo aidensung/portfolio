@@ -627,6 +627,10 @@ header.scrolled .nav-toggle {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.portfolio__item__container {
+  border: 1px solid var(--clr-deeporange);
+}
+
 .portfolio__item {
   min-height: 300px;
   background-position: center;
@@ -676,10 +680,12 @@ header.scrolled .nav-toggle {
   min-width: 75%;
   margin: 0 auto;
   justify-content: space-around;
+  align-items: center;
 }
 
 .portfolio__links a {
   text-decoration: none;
+  height: 100%;
 }
 
 .portfolio__link {
@@ -713,10 +719,12 @@ header.scrolled .nav-toggle {
 
   .portfolio__item__container {
     overflow: hidden;
+    border: none;
+    box-shadow: var(--bs);
   }
 
   .portfolio__item {
-    background-color: var(--clr-medium);
+    background-color: var(--clr-dark);
     background-blend-mode: unset;
   }
 
@@ -818,22 +826,22 @@ header.scrolled .nav-toggle {
   margin: 0 auto;
 }
 
+.portfolio-item-individual h3,
 .portfolio-item-individual p {
   max-width: 37.5rem;
+  line-height: 1.5;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
 }
 
-.portfolio-item-individual p:first-child {
+.portfolio-item-individual h3:first-child {
   margin-top: 0;
 }
 
-.portfolio-item-individual p:last-child {
-  margin-bottom: 0;
-}
-
 .portfolio-item-individual img {
-  margin: 0 auto;
+  margin: 1rem auto;
   max-height: 350px;
 }
 
