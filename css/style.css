@@ -16,8 +16,8 @@
 /* Custom Properties */
 
 :root {
-  --ff-primary: 'Montserrat', sans-serif;
-  --ff-secondary: 'Source Code Pro', monospace;
+  --ff-primary: "Montserrat", sans-serif;
+  --ff-secondary: "Source Code Pro", monospace;
 
   --fw-reg: 300;
   --fw-bold: 900;
@@ -34,8 +34,10 @@
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
 
-  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25), 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
-  --bs-light: 0.25em 0.25em 0.75em rgba(255, 255, 255, 0.75), 0.125em 0.125em 0.25em rgba(255, 255, 255, 0.85);
+  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+  --bs-light: 0.25em 0.25em 0.75em rgba(255, 255, 255, 0.75),
+    0.125em 0.125em 0.25em rgba(255, 255, 255, 0.85);
 }
 
 @media (min-width: 49rem) {
@@ -390,7 +392,7 @@ header.scrolled .nav-toggle {
 
 .hamburger::before,
 .hamburger::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -444,8 +446,8 @@ header.scrolled .nav-toggle {
     width: min-content;
     column-gap: 1em;
     grid-template-areas:
-      'img title'
-      'img subtitle';
+      "img title"
+      "img subtitle";
     grid-template-columns:
       min-content
       max-content;
@@ -517,10 +519,10 @@ header.scrolled .nav-toggle {
     margin: 0 auto;
     grid-template-columns: 1fr 200px;
     grid-template-areas:
-      'title img'
-      'subtitle img'
-      'text img'
-      'exp exp';
+      "title img"
+      "subtitle img"
+      "text img"
+      "exp exp";
     column-gap: 2em;
   }
 
@@ -581,7 +583,7 @@ header.scrolled .nav-toggle {
 }
 
 .section__title--techstack::after {
-  content: '';
+  content: "";
   display: block;
   width: 2em;
   height: 1px;
@@ -869,6 +871,11 @@ header.scrolled .nav-toggle {
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
+}
+
+.portfolio-item-individual h3 {
+  max-width: 100%;
+  text-align: center;
 }
 
 .portfolio-item-individual h3:first-child {
