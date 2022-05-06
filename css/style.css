@@ -662,6 +662,9 @@ header.scrolled .nav-toggle {
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding-left: 10rem;
+  padding-right: 10rem;
+  column-gap: 2rem;
 }
 
 .portfolio__item__container {
@@ -689,7 +692,7 @@ header.scrolled .nav-toggle {
 }
 
 .portfolio__item--item02 {
-  background-image: url(../img/chat-capture.png);
+  background-image: url(../img/become-partner-capture.jpg);
 }
 
 .portfolio__item--item03 {
